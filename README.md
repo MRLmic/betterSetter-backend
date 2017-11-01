@@ -19,3 +19,8 @@
  outside of app)
 
 ### Link to wireframe & ERD: https://imgur.com/a/QP0xg
+
+
+rails generate scaffold exercise date:date workout:string amount:string reps:string time:string
+
+rails g migration AddUserToExercises user:references
