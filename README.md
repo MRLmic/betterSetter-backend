@@ -17,3 +17,5 @@
  - A user will be able to search google from within the app to find any
  exercises they don't know so they can learn what it is. (clicking would lead
  outside of app)
+
+### Link to wireframe & ERD: https://imgur.com/a/QP0xg
