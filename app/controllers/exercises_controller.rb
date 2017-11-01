@@ -3,7 +3,7 @@ class ExercisesController < ProtectedController
 
   # GET /exercises
   def index
-    @exercises = current_user.notes.all.order('created_at DESC')
+    @exercises = current_user.exercises.all.order('created_at DESC')
 
     render json: @exercises
   end
