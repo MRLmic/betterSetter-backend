@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class SearchController < ApplicationController
+class SearchController < ProtectedController
   def index
     if params[:q]
       page = params[:page] || 1
